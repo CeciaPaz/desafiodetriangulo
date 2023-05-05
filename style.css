@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./triangulo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #9e2a2cb0;
+    border-radius: 8px;
+    padding: 30px 15px;
+
+}
+.input{
+    border: nome;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-size: 16px;
+}
+.btn{
+    pad: 11px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #780000;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+.btn:hover
+.btn:focus{
+    outline: none;
+    box-shadow: 0 0 3px #f09d73ce,0 0 0
+}
+
+
